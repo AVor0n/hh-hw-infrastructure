@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
+    "@hh.ru/eslint-config"
+  ],
+  "plugins": ["react-refresh"],
+  "root": true,
+  "env": { "browser": true, "es2020": true },
+  "rules": {
+    "react-refresh/only-export-components": ["warn", { "allowConstantExport": true }]
+  },
+  "overrides": [
+    {
+      "settings": {
+        "import/resolver": {
+          "typescript": {
+            "project": "tsconfig.eslint.json"
+          }
+        }
+      },
+      "parserOptions": {
+        "project": "tsconfig.eslint.json"
+      },
+      "files": "*.{ts,tsx}",
+      "extends": "@hh.ru/eslint-config/typescript"
+    }
+  ]
+}
