@@ -34,6 +34,8 @@ const RAW_RUNTIME_STATE =
           ["eslint", "npm:8.53.0"],\
           ["eslint-plugin-react-hooks", "virtual:4d1af86b2d9fb4fe556bab52da1fceb41dcc14b3bfd3d8b7ed898c9b3a0b657518ef2b72f92590535ad881481ac4d1411f7d6e26586d3d4bbef4aa95c2392b27#npm:4.6.0"],\
           ["eslint-plugin-react-refresh", "virtual:4d1af86b2d9fb4fe556bab52da1fceb41dcc14b3bfd3d8b7ed898c9b3a0b657518ef2b72f92590535ad881481ac4d1411f7d6e26586d3d4bbef4aa95c2392b27#npm:0.4.4"],\
+          ["husky", "npm:8.0.3"],\
+          ["nano-staged", "npm:0.8.0"],\
           ["prettier", "npm:3.1.0"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:4d1af86b2d9fb4fe556bab52da1fceb41dcc14b3bfd3d8b7ed898c9b3a0b657518ef2b72f92590535ad881481ac4d1411f7d6e26586d3d4bbef4aa95c2392b27#npm:18.2.0"],\
@@ -1825,6 +1827,8 @@ const RAW_RUNTIME_STATE =
           ["eslint", "npm:8.53.0"],\
           ["eslint-plugin-react-hooks", "virtual:4d1af86b2d9fb4fe556bab52da1fceb41dcc14b3bfd3d8b7ed898c9b3a0b657518ef2b72f92590535ad881481ac4d1411f7d6e26586d3d4bbef4aa95c2392b27#npm:4.6.0"],\
           ["eslint-plugin-react-refresh", "virtual:4d1af86b2d9fb4fe556bab52da1fceb41dcc14b3bfd3d8b7ed898c9b3a0b657518ef2b72f92590535ad881481ac4d1411f7d6e26586d3d4bbef4aa95c2392b27#npm:0.4.4"],\
+          ["husky", "npm:8.0.3"],\
+          ["nano-staged", "npm:0.8.0"],\
           ["prettier", "npm:3.1.0"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:4d1af86b2d9fb4fe556bab52da1fceb41dcc14b3bfd3d8b7ed898c9b3a0b657518ef2b72f92590535ad881481ac4d1411f7d6e26586d3d4bbef4aa95c2392b27#npm:18.2.0"],\
@@ -1861,6 +1865,15 @@ const RAW_RUNTIME_STATE =
           ["https-proxy-agent", "npm:7.0.2"],\
           ["agent-base", "npm:7.1.0"],\
           ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["husky", [\
+      ["npm:8.0.3", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/husky-npm-8.0.3-b0b59c5127-10c0.zip/node_modules/husky/",\
+        "packageDependencies": [\
+          ["husky", "npm:8.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2297,6 +2310,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/ms-npm-2.1.2-ec0c1512ff-10c0.zip/node_modules/ms/",\
         "packageDependencies": [\
           ["ms", "npm:2.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["nano-staged", [\
+      ["npm:0.8.0", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/nano-staged-npm-0.8.0-ba6e5181ff-10c0.zip/node_modules/nano-staged/",\
+        "packageDependencies": [\
+          ["nano-staged", "npm:0.8.0"],\
+          ["picocolors", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
