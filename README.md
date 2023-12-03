@@ -1,30 +1,12 @@
-# React + TypeScript + Vite
+# hh-infrastructure-hw
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Задание школы программистов HeadHunter по теме 'Инфраструктура'
 
-Currently, two official plugins are available:
+Сделать репозиторий на GitHub со сборкой статики и линтерами.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-};
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Выбрал Vite, как любимый сборщик, т.к. не было времени разбираться с чем-то ещё.
+К тому же webpack и parcel всё равно уже настраивал.
+Rollup вероятно тот же Vite.
+TurboPack ещё в бете
+у Biome собственные линтеры, не уверен, что там бы получилось подключить конфиги HH
+Так что из нового разве что esbuild можно было бы попробовать
