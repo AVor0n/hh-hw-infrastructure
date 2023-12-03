@@ -30,6 +30,8 @@
   "devDependencies": {
     "@babel/core": "7.23.5",
     "@babel/eslint-parser": "7.23.3",
+    "@commitlint/cli": "18.4.3",
+    "@commitlint/config-conventional": "18.4.3",
     "@hh.ru/eslint-config": "15.1.1",
     "@hh.ru/eslint-plugin-import-rules": "1.5.2",
     "@hh.ru/stylelint-config-hh": "10.2.1",
