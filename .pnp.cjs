@@ -55,6 +55,7 @@ const RAW_RUNTIME_STATE =
           ["prettier", "npm:3.1.0"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:4d1af86b2d9fb4fe556bab52da1fceb41dcc14b3bfd3d8b7ed898c9b3a0b657518ef2b72f92590535ad881481ac4d1411f7d6e26586d3d4bbef4aa95c2392b27#npm:18.2.0"],\
+          ["sass", "npm:1.69.5"],\
           ["stylelint", "npm:15.11.0"],\
           ["stylelint-config-recommended", "virtual:4d1af86b2d9fb4fe556bab52da1fceb41dcc14b3bfd3d8b7ed898c9b3a0b657518ef2b72f92590535ad881481ac4d1411f7d6e26586d3d4bbef4aa95c2392b27#npm:13.0.0"],\
           ["stylelint-declaration-block-no-ignored-properties", "virtual:4d1af86b2d9fb4fe556bab52da1fceb41dcc14b3bfd3d8b7ed898c9b3a0b657518ef2b72f92590535ad881481ac4d1411f7d6e26586d3d4bbef4aa95c2392b27#npm:2.7.0"],\
@@ -2113,6 +2114,17 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["anymatch", [\
+      ["npm:3.1.3", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/anymatch-npm-3.1.3-bc81d103b1-10c0.zip/node_modules/anymatch/",\
+        "packageDependencies": [\
+          ["anymatch", "npm:3.1.3"],\
+          ["normalize-path", "npm:3.0.0"],\
+          ["picomatch", "npm:2.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["argparse", [\
       ["npm:2.0.1", {\
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/argparse-npm-2.0.1-faff7999e6-10c0.zip/node_modules/argparse/",\
@@ -2290,6 +2302,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["binary-extensions", [\
+      ["npm:2.2.0", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/binary-extensions-npm-2.2.0-180c33fec7-10c0.zip/node_modules/binary-extensions/",\
+        "packageDependencies": [\
+          ["binary-extensions", "npm:2.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["bplist-parser", [\
       ["npm:0.2.0", {\
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/bplist-parser-npm-0.2.0-91a681e495-10c0.zip/node_modules/bplist-parser/",\
@@ -2442,6 +2463,23 @@ const RAW_RUNTIME_STATE =
           ["chalk", "npm:4.1.2"],\
           ["ansi-styles", "npm:4.3.0"],\
           ["supports-color", "npm:7.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["chokidar", [\
+      ["npm:3.5.3", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/chokidar-npm-3.5.3-c5f9b0a56a-10c0.zip/node_modules/chokidar/",\
+        "packageDependencies": [\
+          ["chokidar", "npm:3.5.3"],\
+          ["anymatch", "npm:3.1.3"],\
+          ["braces", "npm:3.0.2"],\
+          ["fsevents", "patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"],\
+          ["glob-parent", "npm:5.1.2"],\
+          ["is-binary-path", "npm:2.1.0"],\
+          ["is-glob", "npm:4.0.3"],\
+          ["normalize-path", "npm:3.0.0"],\
+          ["readdirp", "npm:3.6.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4541,6 +4579,7 @@ const RAW_RUNTIME_STATE =
           ["prettier", "npm:3.1.0"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:4d1af86b2d9fb4fe556bab52da1fceb41dcc14b3bfd3d8b7ed898c9b3a0b657518ef2b72f92590535ad881481ac4d1411f7d6e26586d3d4bbef4aa95c2392b27#npm:18.2.0"],\
+          ["sass", "npm:1.69.5"],\
           ["stylelint", "npm:15.11.0"],\
           ["stylelint-config-recommended", "virtual:4d1af86b2d9fb4fe556bab52da1fceb41dcc14b3bfd3d8b7ed898c9b3a0b657518ef2b72f92590535ad881481ac4d1411f7d6e26586d3d4bbef4aa95c2392b27#npm:13.0.0"],\
           ["stylelint-declaration-block-no-ignored-properties", "virtual:4d1af86b2d9fb4fe556bab52da1fceb41dcc14b3bfd3d8b7ed898c9b3a0b657518ef2b72f92590535ad881481ac4d1411f7d6e26586d3d4bbef4aa95c2392b27#npm:2.7.0"],\
@@ -4660,6 +4699,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/image-size-npm-0.5.5-4dec53b956-10c0.zip/node_modules/image-size/",\
         "packageDependencies": [\
           ["image-size", "npm:0.5.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["immutable", [\
+      ["npm:4.3.4", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/immutable-npm-4.3.4-2f54cf641b-10c0.zip/node_modules/immutable/",\
+        "packageDependencies": [\
+          ["immutable", "npm:4.3.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4786,6 +4834,16 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["is-bigint", "npm:1.0.4"],\
           ["has-bigints", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["is-binary-path", [\
+      ["npm:2.1.0", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/is-binary-path-npm-2.1.0-e61d46f557-10c0.zip/node_modules/is-binary-path/",\
+        "packageDependencies": [\
+          ["is-binary-path", "npm:2.1.0"],\
+          ["binary-extensions", "npm:2.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6533,6 +6591,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["readdirp", [\
+      ["npm:3.6.0", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/readdirp-npm-3.6.0-f950cc74ab-10c0.zip/node_modules/readdirp/",\
+        "packageDependencies": [\
+          ["readdirp", "npm:3.6.0"],\
+          ["picomatch", "npm:2.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["redent", [\
       ["npm:4.0.0", {\
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/redent-npm-4.0.0-67da39f156-10c0.zip/node_modules/redent/",\
@@ -6738,6 +6806,18 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/safer-buffer-npm-2.1.2-8d5c0b705e-10c0.zip/node_modules/safer-buffer/",\
         "packageDependencies": [\
           ["safer-buffer", "npm:2.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass", [\
+      ["npm:1.69.5", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/sass-npm-1.69.5-3f0210c9f9-10c0.zip/node_modules/sass/",\
+        "packageDependencies": [\
+          ["sass", "npm:1.69.5"],\
+          ["chokidar", "npm:3.5.3"],\
+          ["immutable", "npm:4.3.4"],\
+          ["source-map-js", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7783,7 +7863,7 @@ const RAW_RUNTIME_STATE =
           ["lightningcss", null],\
           ["postcss", "npm:8.4.32"],\
           ["rollup", "npm:4.6.1"],\
-          ["sass", null],\
+          ["sass", "npm:1.69.5"],\
           ["stylus", null],\
           ["sugarss", null],\
           ["terser", null]\

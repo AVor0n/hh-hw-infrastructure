@@ -49,6 +49,7 @@
     "nano-staged": "0.8.0",
     "postcss": "8.4.32",
     "prettier": "3.1.0",
+    "sass": "1.69.5",
     "stylelint": "15.11.0",
     "stylelint-config-recommended": "13.0.0",
     "stylelint-declaration-block-no-ignored-properties": "2.7.0",
