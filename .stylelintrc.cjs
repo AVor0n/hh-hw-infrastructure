@@ -3,7 +3,7 @@ const { propertyOrdering, selectorOrdering } = require('stylelint-semantic-group
 module.exports = {
   extends: [
     'stylelint-config-recommended',
-    // '@hh.ru/stylelint-config-hh'
+    // '@hh.ru/stylelint-config-hh' //много deprecated правил, при понижении stylelint до ^14, некоторые правила становятся неизвестными
   ],
   plugins: [
     'stylelint-scss',
