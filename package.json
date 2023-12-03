@@ -13,6 +13,7 @@
     "lint": "tsc --noEmit && eslint . --ext=.ts,.tsx --quiet && stylelint ./src/**/*.scss --quiet",
     "lint:fix": "eslint . --ext=.ts,.tsx --fix && stylelint ./src/**/*.scss --fix",
     "preview": "vite preview",
+    "deploy": "yarn build && gh-pages -d dist",
     "postinstall": "husky install"
   },
   "dependencies": {
@@ -28,6 +29,7 @@
     "@hh.ru/eslint-plugin-import-rules": "1.5.2",
     "@hh.ru/stylelint-config-hh": "10.2.1",
     "@types/babel__core": "7.20.5",
+    "@types/node": "20.10.3",
     "@types/react": "18.2.41",
     "@types/react-dom": "18.2.17",
     "@typescript-eslint/eslint-plugin": "5.62.0",
@@ -41,6 +43,7 @@
     "eslint-plugin-prettier": "5.0.1",
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-react-refresh": "0.4.5",
+    "gh-pages": "6.1.0",
     "husky": "8.0.3",
     "less": "4.2.0",
     "nano-staged": "0.8.0",
