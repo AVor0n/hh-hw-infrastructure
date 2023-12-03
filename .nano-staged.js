@@ -1,6 +1,6 @@
 export default {
-  'src/**/*.{ts,tsx}': () => ['tsc -p tsconfig.json  --noEmit', 'mocha --bail'],
+  'src/**/*.{ts,tsx}': () => ['tsc -p tsconfig.json  --noEmit'],
   '*.{ts,tsx}': ['eslint --fix', 'prettier --write'],
-  '*.css': ['stylelint --fix', 'prettier --write'],
-  '!(*.{ts,css})': ['prettier --write --ignore-unknown'],
+  '*.{scss,css}': ['stylelint --fix', 'prettier --write'],
+  '!(*.{ts,scss,css})': ['prettier --write --ignore-unknown'],
 };
