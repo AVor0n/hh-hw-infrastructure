@@ -4,4 +4,4 @@ node_modules
 .yarn
 .pnp.cjs
 .pnp.loader.mjs
-commitlint.config.js
+commitlint.config.cjs
